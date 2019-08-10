@@ -20,13 +20,13 @@ export class DiscoverPage implements OnInit {
   genreId="";
   genreName="";
   openToast: any;
-  private movie_years = [
+  movie_years = [
     "2019","2018","2017","2016","2015","2014","2013","2012","2011","2010","2009","2008","2007","2006","2005","2004","2003",
     "2002","2001","2000",
   ]
 
-  private items = [];
-  private movie_genres = [
+   items = [];
+   movie_genres = [
     {id: "28", name: "Action", icon: '🎬', class: 'genre-active'},
     {id: "12", name: "Adventure", icon: '🌇'},
     {id: "16", name: "Animation", icon: '😊'},
@@ -46,7 +46,7 @@ export class DiscoverPage implements OnInit {
     {id: "10752", name: "War", icon: '⚔️'},
     {id: "37", name: "Western", icon: '🤠'},
   ];
-  private tv_genres = [
+   tv_genres = [
     { id: 10759,   name: "Action & Adventure", icon: "🎞️"},
     { id: 16, name: "Animation", icon: "😊"},
     { id: 35, name: "Comedy", icon: "🤣"},

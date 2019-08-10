@@ -24,10 +24,10 @@ export class HomePage {
   ];
   numbers = [1,2,3,4];
 
-  private items = [];
-  private tv_popular = [];
-  private movie_popular = [];
-  private genres = [
+  items = [];
+  tv_popular = [];
+  movie_popular = [];
+  genres = [
     { id: "28", name: "Action", icon: '🎬', class: 'genre-active' },
     { id: "12", name: "Adventure", icon: '🌇' },
     { id: "16", name: "Animation", icon: '😊' },
